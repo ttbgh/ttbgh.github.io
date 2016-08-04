@@ -3,27 +3,9 @@
 <html lang="en-US">
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- Mirrored from www.orientalbank.co.ke/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Aug 2016 14:21:50 GMT -->
+<!-- Mirrored from www.orientalbank.co.ke/privacy-policy by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Aug 2016 14:56:21 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
-<!--   <base href="http://www.orientalbank.co.ke/" />
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="generator" content="Joomla! - Open Source Content Management" />
-  <title>Home</title>
-  <link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
-  <link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
-  <link href="/templates/oriental-main/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-  <link rel="stylesheet" href="http://www.orientalbank.co.ke/modules/mod_mailchimpsignup/assets/css/default.css" type="text/css" />
-  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
-  <script src="/media/system/js/core.js" type="text/javascript"></script>
-  <script src="/media/system/js/caption.js" type="text/javascript"></script>
-  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
-  <script type="text/javascript">
-window.addEvent('load', function() {
-				new JCaption('img.caption');
-			});
-  </script>
- -->
 <!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
@@ -31,7 +13,6 @@ window.addEvent('load', function() {
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>The Trust Bank</title>
-<meta name="description" content="A highly respected financial institution which provides tailor made banking services to the satisfaction of customers in Ghana with presence in CBD-Accra, Westlands, Nakumatt Mega, Thika Road Mall,Nakuru,Eldoret,Kitale and Mombasa"/>
 
 <link href="templates/oriental-main/css/style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="templates/oriental-main/css/jquery.bxslider.css">
@@ -39,56 +20,34 @@ window.addEvent('load', function() {
 <script src="templates/oriental-main/js/lib/modernizr-custom-2.6.2.js" type="text/javascript"></script>
 <script src="templates/oriental-main/js/lib/jquery-1.7.2.min.js" type="text/javascript"></script>
 <script src="templates/oriental-main/js/lib/customselect.js" type="text/javascript"></script>
-<script src="templates/oriental-main/js/lib/jquery.fitvids.js" type="text/javascript"></script>
-<script src="templates/oriental-main/js/lib/jquery.easing.1.3.js" type="text/javascript"></script>
-<script src="templates/oriental-main/js/lib/jquery.bxslider.min.js" type="text/javascript"></script>
 <script src="templates/oriental-main/js/lib/code_library.js" type="text/javascript"></script>
-
 <script type="text/javascript">
-  var BASE_URL = "";
+	var BASE_URL = "";
 </script>
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/tabs.js" type="text/javascript" charset="utf-8"></script>
 <script src="templates/oriental-main/js/main.js" type="text/javascript"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-50623649-1', 'orientalbank.co.ke');
-  ga('send', 'pageview');
-
-  function closes(){
-    $(".overlay").fadeOut(300);
-    
-  }
-  
-</script>
 
 </head>
 <body>
-  <div class="overlay">
-      <div class="overlay-content">
-        <div class="close-btn" onclick="closes()">x</div>
-        <div class="clear"></div>
-        <p>APPLICATION FORM FOR UPDATING SHAREHOLDER’S DETAIL</p>
-        <a href="downaa1c.php?file=Updating%20of%20Share%20Register.pdf" class="download-form">download</a>
-      </div>
-    </div>
-  <!--page_wrapper-->
-  <div id="page_wrapper">
-      
+ 
+	<!--page_wrapper-->
+	<div id="page_wrapper">
+    	
         <!--top_header-->
         <header id="top_header">
         
-          <!--inner_section-->
-          <div id="header_inner_section" class="center_layout">
+        	<!--inner_section-->
+        	<div id="header_inner_section" class="center_layout">
             
-              <a id="oriental_logo" title="The Trust Bank" href="index.php"><img src="templates/oriental-main/images/logo.png" alt="The Trust Bank"/></a>
+            	<a id="oriental_logo" title="The Trust Bank" href="index.php"><img src="templates/oriental-main/images/logo.png" alt="The Trust Bank"/></a>
                 
-                 <!-- menus_cont-->
+               	<!-- menus_cont-->
                 <div id="menus_cont">
-                  <!--top_menu-->
-                  		<div class="moduletable">
+                
+                	<!--top_menu-->
+                			<div class="moduletable">
 					<ul id="top_menu">
 	                    	<li class="">
                             <a href="branch-network">
@@ -98,7 +57,7 @@ window.addEvent('load', function() {
                             <a href="downloads">
                                 Downloads                            </a>
                         </li>
-                                        	<li class="">
+                                        	<li class="active">
                             <a href="privacy-policy">
                                 Privacy Policy                            </a>
                         </li>
@@ -108,17 +67,19 @@ window.addEvent('load', function() {
                         </li>
                     </ul>		</div>
 	
-                    
                     <!--top_menu-->
                     
                     <!--my_oriental_cont-->
                     <div id="my_oriental_outer_cont">
-                      <a href="ttb_link.html" class="my_oriental_link" target="_self">Online Access</a>
+                    	<a href="ttb_link.html" class="my_oriental_link" target="_self">Online Access</a>
                     </div>
                     <!--.my_oriental_cont-->
                     
                     <!--mainmenu_search_cont-->
-                    		<div class="moduletable">
+                    <div id="mainmenu_search_cont">
+                    
+                    	<!--main_menu-->
+                    			<div class="moduletable">
 					
 
 <div id="mainmenu_search_cont">               
@@ -138,7 +99,7 @@ window.addEvent('load', function() {
                         </li>            	
 
                     
-        				<li class="active">
+        				<li class="">
 
                         	<a href="home.html" title="Home">
 
@@ -194,6 +155,8 @@ window.addEvent('load', function() {
 
 </div>		</div>
 	
+                        <!--.main_menu-->
+                    </div>
                     <!--.mainmenu_search_cont-->
                     
                 </div>
@@ -201,191 +164,117 @@ window.addEvent('load', function() {
                 
             </div>
             <!--.inner_section-->
-          
+        	
         </header>
         <!--.top_header-->
         
-        <!--banner_section-->
-        <section id="banner_section">
-        
-          <!--banner_window-->
-          <div class="banner_window">
-              <!--banner_holder-->
-              		<div class="moduletable">
-					        <ul class="banner_holder">
-								   <li><a href="javascript:void(0)"><img src="administrator/components/com_image_slider/slider_images/0b3ecf35d1c51535ae19aac2b455a036-ladies-account.jpg"/></a></li>
-										   <li><a href="javascript:void(0)"><img src="administrator/components/com_image_slider/slider_images/56f1b60809d25bdcefae39d3167fc134-Mombasa.jpg"/></a></li>
-										   <li><a href="javascript:void(0)"><img src="administrator/components/com_image_slider/slider_images/9256d05862af5b9d9f240574c801c7d1-ndoto-account.jpg"/></a></li>
-										   <li><a href="javascript:void(0)"><img src="administrator/components/com_image_slider/slider_images/0563f5285b66d221a8e576972450567b-TRM.jpg"/></a></li>
-										   <li><a href="javascript:void(0)"><img src="administrator/components/com_image_slider/slider_images/4449e97a398c2dda55fb1f0d3b02d1bd-internet-banking.jpg"/></a></li>
-										   <li><a href="javascript:void(0)"><img src="administrator/components/com_image_slider/slider_images/a9c9ae147823e4678ce3821cfd806234-oriental.jpg"/></a></li>
-					         </ul>
-        
-<script type="text/javascript">
-	$(document).ready(function(){
-		var slider_image_count = $(".banner_holder").children().length;
-		if(slider_image_count > 1){
-			$('.banner_holder').bxSlider({
-				auto: true,
-				autoHover: true,
-				pager: false,
-				tickerHover: true,
-				randomStart: true,
-				responsive: true,
-				speed: 3000,
-				preloadImages: 'visible'
-			});
-		}
-	})
-</script>		</div>
-	
-                <!--.banner_holder-->
-                
-            </div>
-            <!--.banner_window-->
-            
-        </section>
-        <!--.banner_section-->
-        
-        <!--latest_news_section-->
-        <section id="latest_news_section">
-        
-          <!--inner_latest_news_section-->
-          <div id="inner_latest_news_section" class="center_layout">
-            
-              <!--latest_news_title-->
-              <span class="latest_news_title">
-                  Latest <span class="bold">News</span>
-                </span>
-                <!--latest_news_title-->
-                
-                <!--latest_news_stream_outer-->
-                <div class="latest_news_stream_outer">
-                  <!--latest_news_stream_holder-->
-                   		<div class="moduletable">
-					<p class="quotes">The bank was honored as 2nd runner up, in the category of Best Banks (Tier IV) in this year’s Banking Award</p>
-
-<p class="quotes">Our Mombasa branch is now open & fully operational.</p>
-
-<p class="quotes">Visit any of our branches for various off the shelf products, we can also tailor our products to suit your requirements......</p>
-
-<p class="quotes">The Bank receives ISO 9001:2008 certification. We are ISO Certified!</p>		</div>
-	
-                   <!--.latest_news_stream_holder-->  
-                </div>
-                <!--.latest_news_stream_outer-->
-                
-                <!--latest_news_arrows-->
-                <ul class="latest_news_arrows">
-                  <li class="top_arrow"><a onclick="showNextQuote()"><img src="templates/oriental-main/images/up_pointer.png"/></a></li>
-                    <li class="bottom_arrow"><a onclick="showPrevQuote()"><img src="templates/oriental-main/images/down_pointer.png"/></a></li>
-                </ul>
-                <!--.latest_news_arrows-->
-                
-            </div>
-            <!--.inner_latest_news_section-->
-            
-        </section>
-        <!--.latest_news_section-->
+        <!--second_level_menu-->
+        	
+        <!--.second_level_menu-->
         
         <!--mid_section-->
         <section id="mid_section">
         
-          <!--inner_mid_section-->
-          <div id="inner_mid_section" class="center_layout">
-              
-                <!--about_oriental_intro-->
-                <div class="brief_intro_cont" id="about_oriental_intro">
-                
-                  <img src="templates/oriental-main/images/intro_lady.png" title="About Oriental" />
-                    
-                    <!--brief_intro-->
-                    <div class="brief_intro">
-                      <span class="intro_title">About Oriental</span>
-                        
-                        <!--intro_links-->
-                        <ul class="intro_links">
-                                                                    <li>
-                                                <a href="about-oriental.html">
-                                                    About Trust Bank                                                </a>
-                                             </li>
-                                                                                  
-                                                                                  <li>
-                                                <a href="senior-management.html">
-                                                    Senior Management                                                </a>
-                                             </li>
-                                                                                  <li>
-                                                <a href="career.html">
-                                                    Career                                                </a>
-                                             </li>
-                                                                                  
-                                                                                  <li>
-                                                <a href="oriental-publications.html">
-                                                    Trust Bank Publications                                                </a>
-                                             </li>
-                                                                                  
-                                                                                  <li>
-                                                <a href="mobl-shareholding-structure.html">
-                                                    MOBL shareholding Structure                                                </a>
-                                             </li>
-                                                                </ul>
-                        <!--.intro_links-->
-                    </div>
-                    <!--brief_intro-->
+        	<!--inner_mid_section-->
+        	<div id="inner_mid_section" class="center_layout">
+                <!--center_content-->
+                <div id="main_content">
+                	<div class="item-page">
+
+	<h2>
+			Privacy Policy		</h2>
+
+
+
+
+
+
+
+
+<p class="title">DATA PROTECTION AND PRIVACY POLICY</p>
+<p><strong>Your Personal Information</strong></p>
+<p align="JUSTIFY">This Data Protection and Privacy Statement relates solely to information supplied by you on this Web Site. The Trust Bank, the Data Controller respects the privacy of your personal information and will treat it confidentially and securely.</p>
+<p align="JUSTIFY">Any personal information provided by you to Trust Bank through this Web Site will be used for the purpose of providing and operating the products and services you have requested at this Web Site and for other related purposes which may include updating and enhancing Trust Bank's records, understanding your financial needs, conducting credit checks, reviewing credit worthiness and assisting other financial institutions to conduct credit checks, advising you of other products and services which may be of interest to you, for crime/fraud prevention and debt collection purposes, for purposes required by law or regulation, and to plan, conduct and monitor Trust Bank's business. The information collected from you by Trust Bank will be valuable in improving the design and marketing of our range of services and related products for customer use.</p>
+<p style="margin-top: 0.1in; margin-bottom: 0.21in; line-height: 0.17in;" align="JUSTIFY">Other than to those individuals and entities listed below your details will not be revealed by Trust Bank to any external body, unless Trust Bank has your permission, or is under either a legal obligation or any other duty to do so. For the purposes detailed above, your information may be disclosed to:</p>
+<ul>
+<li>
+<p align="JUSTIFY">any other Branches of Trust Bank (ie. Trust Bank, its subsidiaries and affiliates);</p>
+</li>
+<li>
+<p align="JUSTIFY">any regulatory, supervisory, governmental authority with jurisdiction over Trust Bank members;</p>
+</li>
+<li>
+<p align="JUSTIFY">any agent, contractor or third party service provider, professional adviser or any other person under a duty of confidentiality to Trust Bank;</p>
+</li>
+<li>
+<p align="JUSTIFY">credit reference agencies and, in the event of default, debt collection agencies;</p>
+</li>
+<li>
+<p align="JUSTIFY">any actual or potential participant or sub-participant in, assignee or transferee of, any of the Trust Bank rights and/or obligations in relation to you;</p>
+</li>
+<li>
+<p align="JUSTIFY">any financial institution with which Trust Bank has or proposes to have dealings.</p>
+</li>
+</ul>
+<p align="JUSTIFY">The above disclosures may require the transfer of your information to parties located in countries that do not offer the same level of data protection as your home country. However, Trust Bank will ensure that parties to whom your details are transferred treat your information securely and confidentially. Trust Bank also pledges its intention fully to meet any internationally recognised standards of personal data privacy protection and to comply with applicable data protection and privacy laws. We may transfer your information if it is necessary to perform our contract with you and by providing details to Trust Bank via this Web Site you are deemed to consent to any other transfers.</p>
+<p align="JUSTIFY">Information held about you is retained as long as the purpose for which the information was collected continues. The information is then destroyed unless its retention is required to satisfy legal, regulatory or accounting requirements or to protect Trust Bank's interests. As a general rule, the maximum retention period is 7 years.</p>
+<p align="JUSTIFY">It is your responsibility to maintain the secrecy of any user ID and login password you hold.</p>
+<p align="JUSTIFY"><strong>Cookies</strong></p>
+<p align="JUSTIFY">In order to improve our Internet service to you, we will occasionally use a "cookie" and/or other similar files or programs which may place certain information on your computer's hard drive when you visit an Trust Bank web site. A cookie is a small amount of data that our web server sends to your web browser when you visit certain parts of our site. We may use cookies to:</p>
+<ul>
+<li>
+<p align="JUSTIFY">allow us to recognise the PC you are using when you return to our web site so that we can understand your interest in our web site and tailor its content and advertisements to match your interests (This type of cookie may be stored permanently on your PC but does not contain any information that can identify you personally.);</p>
+</li>
+<li>
+<p align="JUSTIFY">identify you after you have logged in by storing a temporary reference number in the cookie so that our web server can conduct a dialogue with you while simultaneously dealing with other customers. (Your browser keeps this type of cookie until you log off or close down your browser when these types of cookie are normally deleted. No other information is stored in this type of cookie.);</p>
+</li>
+<li>
+<p align="JUSTIFY">allow you to carry information across pages of our site and avoid having to re-enter that information;</p>
+</li>
+<li>
+<p align="JUSTIFY">allow you access to stored information if you register for any of our on-line services;</p>
+</li>
+<li>
+<p align="JUSTIFY">enable us to produce statistical information (anonymous) which helps us to improve the structure and content of our web site;</p>
+</li>
+<li>
+<p align="JUSTIFY">enable us to evaluate the effectiveness of our advertising and promotions.</p>
+</li>
+</ul>
+<p align="JUSTIFY">Cookies do not enable us to gather personal information about you unless you give the information to our server. Most Internet browser software allows the blocking of all cookies or enables you to receive a warning before a cookie is stored. For further information, please refer to your Internet browser software instructions or help screen. Alternatively, information on deleting or controlling cookies is available at <a href="http://www.allaboutcookies.org/" target="_self">http://www.allaboutcookies.org</a></p>
+<p align="JUSTIFY"><strong>Internet Communications</strong></p>
+<p align="JUSTIFY">In order to maintain the security of our systems, protect our staff, record transactions, and, in certain circumstances, to prevent and detect crime or unauthorised activities, Trust Bank reserves the right to monitor all internet communications including web and email traffic into and out of its domains.</p>
+<p align="JUSTIFY"><strong>Your Rights and How to Contact Us</strong></p>
+<p style="margin-top: 0.1in; margin-bottom: 0.21in; line-height: 0.17in;" align="JUSTIFY">You may have the right under data protection legislation on payment of a fee to request access to personal information about you held by us and to have it corrected where appropriate. If you have that right and you wish to access, correct or delete any of your personal data held by us, or if you have any questions concerning our Data Protection and Privacy Statement please contact the relevant Trust Bank Data Protection representative. You may also have the right to access details held by credit reference agencies and Trust Bank will supply details of the relevant agencies upon request.</p>
+<p align="JUSTIFY">We may be contacted as follows:</p>
+<p align="JUSTIFY"><a href="contact-us.html" title="Contact us">Contact Us</a></p>
+<p align="JUSTIFY"><strong>Contacting You</strong></p>
+<p align="JUSTIFY">In providing your telephone, facsimile number, postal and e-mail address or similar details, you agree that Trust Bank may contact you by these methods to keep you informed about Trust Bank products and services or for any other reason.</p>
+<p align="JUSTIFY">Trust Bank reserves the right to amend its prevailing Data Protection and Privacy Statement at any time and will place any such amendments on this Web Site. This Data Protection and Privacy Statement is not intended to, nor does it, create any contractual rights whatsoever or any other legal rights, nor does it create any obligations on Trust Bank in respect of any other party or on behalf of any party.</p>
+	
+</div>
+
                 </div>
-                <!--.about_oriental_intro-->
-                
-                
-                <!--about_oriental_intro-->
-                <div class="brief_intro_cont" id="products_intro">
-                  <img src="templates/oriental-main/images/intro_dude.png" title="Oriental Products" />
-                    
-                    <!--brief_intro-->
-                    <div class="brief_intro2">
-                      <span class="intro_title">Products</span>
-                        <!--intro_links-->
-                        <ul class="intro_links">
-                                                                    <li>
-                                              <a href="products/1736f.html?view=product">
-                                                Overdrafts And Term Loans                                                </a>  
-                                            </li>
-                                                                                  <li>
-                                              <a href="products/2736f.html?view=product">
-                                                Savings Accounts                                                </a>  
-                                            </li>
-                                                                                  <li>
-                                              <a href="products/3736f.html?view=product">
-                                                Current Accounts                                                </a>  
-                                            </li>
-                                                                    <li>
-                              <a href="products/index.html">
-                                  <span class="view_all_products">View All Products</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <!--.intro_links-->
-                    </div>
-                    <!--brief_intro-->
-                </div>
-                <!--.about_oriental_intro-->
+                <!--.center_content-->
                 
                 <!--tools_container-->
-                <div class="tools_container">
-                  <a class="purple_color tools currency_converter_tool">
-                      <img class="tool_icon" src="templates/oriental-main/images/currency_converter_icon.png"/>
-                      <span class="tool_label caps">Currency <br> Converter</span>
-                    </a>
-                    
-                    <a class="grey_color tools loan_calculator_tool">
-                      <img class="tool_icon" src="templates/oriental-main/images/loan_calculator_icon.png"/>
-                      <span class="tool_label caps">Loan <br> Calculator</span>
-                    </a>
-                    
-                   <a href="atm-locator.html" class="yellow_color tools deposit_calculator_tool">
-                        <img class="tool_icon" src="templates/oriental-main/images/deposit_calculator_icon.png"/>
-                        <span class="tool_label caps">ATM <br> Locator</span>
-                    </a>
-
+                	<aside id="right_content">
+                        <a class="purple_color tools currency_converter_tool">
+                            <img class="tool_icon" src="templates/oriental-main/images/currency_converter_icon.png"/>
+                            <span class="tool_label caps">Currency <br> Converter</span>
+                        </a>
+                        
+                        <a class="grey_color tools loan_calculator_tool">
+                            <img class="tool_icon" src="templates/oriental-main/images/loan_calculator_icon.png"/>
+                            <span class="tool_label caps">Loan <br> Calculator</span>
+                        </a>
+                        
+                       <!-- <a href="http://www.orientalbank.co.ke/atm-locator" class="yellow_color tools deposit_calculator_tool">
+                            <img class="tool_icon" src="http://www.orientalbank.co.ke//templates/oriental-main/images/deposit_calculator_icon.png"/>
+                            <span class="tool_label caps">ATM <br> Locator</span>
+                        </a>-->
+                        
+                      
 
 <div class="custom"  >
 	<table class="forextable" width="266">
@@ -498,7 +387,7 @@ window.addEvent('load', function() {
 </tbody>
 </table></div>
 
-                </div>
+                    </aside>
                 <!--.tools_container-->
                 
             </div>
@@ -507,7 +396,7 @@ window.addEvent('load', function() {
         </section>
         <!--.mid_section-->
         
-        <!--bottom_footer-->
+         <!--bottom_footer-->
         <footer id="bottom_footer">
          <!--inner_bottom_footer-->
 <div class="center_layout isocont">
@@ -604,7 +493,7 @@ function subscribe(){
     var url = baseUrl + 'modules/mod_mailchimpsignup/assets/scripts/ajax-subscribe.php';
     var data = new Object();
     data["listid"] = '1a6ec8a46d';
-    data["ip"] = '45.210.212.87';
+    data["ip"] = '197.191.63.13';
     data["thankyouMsg"] = 'Thank you! Please check your email and confirm the newsletter subscription.';
     data["updateMsg"] = 'You were already subscribed to this list. Your settings have been updated. Thank you!';
     data["userId"] = '0';
@@ -714,7 +603,7 @@ function doAjaxTask( requestUrl, data, callback ){
     </div>
 <div id="mcsignupFormWrapper">
 
-<form action="http://www.orientalbank.co.ke/" method="post" id="mcsignupForm" name="mcsignupForm" onsubmit="return false;">
+<form action="http://www.orientalbank.co.ke/privacy-policy" method="post" id="mcsignupForm" name="mcsignupForm" onsubmit="return false;">
 <div><input name="EMAIL" id="EMAIL" class="mcsignupRequired submitInt inputbox" type="text" value="Email Address" title="Email Address *" onfocus="if(this.value=='Email Address'){this.value='';}" onblur="if(this.value==''){this.value='Email Address';}" /></div><input type="hidden" name="ac950b66a8c6971eb45c24b1ec5fa2d7" value="1" /><div>
     <input type="button" class="button" value="Subscribe" id="mcsignupSubmit" />
 </div>
@@ -897,47 +786,22 @@ function doAjaxTask( requestUrl, data, callback ){
         </div>
     </div>
 </div></div>
-<!--.inner_bottom_footer-->          
-            
-        </footer>
+<!--.inner_bottom_footer-->        </footer>
         <!--.bottom_footer-->
         
         
     </div>
     <!--.page_wrapper-->
-    
+    <script type="text/javascript" charset="utf-8">
+			$(document).ready(function(){
+				$("area[rel^='prettyPhoto']").prettyPhoto();
+				
+				$("a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',show_title: false,theme:'light_square',slideshow:3000,overlay_gallery: false, autoplay_slideshow: false});
+				$(".tabs a").tabs()
+				
+			});
+			</script>
 </body>
 
-<script>
-(function() {
-
-    var quotes = $(".quotes");
-    var quoteIndex = -1;
-    
-    function showNextQuote() {
-        ++quoteIndex;
-        quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(2000)
-            .delay(2000)
-            .fadeOut(2000, showNextQuote);
-    }
-  
-  function showPrevQuote() {
-        --quoteIndex;
-        quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(2000)
-            .delay(2000)
-            .fadeOut(2000, showPrevQuote);
-    }
-    
-    showNextQuote();
-    
-})();
-
-
-</script>
-
-
-
-<!-- Mirrored from www.orientalbank.co.ke/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Aug 2016 14:29:34 GMT -->
+<!-- Mirrored from www.orientalbank.co.ke/privacy-policy by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Aug 2016 14:56:21 GMT -->
 </html>

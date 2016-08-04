@@ -1,0 +1,941 @@
+/* Fonts */
+@font-face {
+    font-family: 'TitilliumText25L800wt';
+    src: url('../fonts/TitilliumText25L001-webfont.eot');
+    src: url('../fonts/TitilliumText25L001-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TitilliumText25L001-webfont.woff') format('woff'),
+         url('../fonts/TitilliumText25L001-webfont.ttf') format('truetype'),
+         url('../fonts/TitilliumText25L001-webfont.svg#TitilliumText25L800wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText25L600wt';
+    src: url('../fonts/TitilliumText25L002-webfont.eot');
+    src: url('../fonts/TitilliumText25L002-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TitilliumText25L002-webfont.woff') format('woff'),
+         url('../fonts/TitilliumText25L002-webfont.ttf') format('truetype'),
+         url('../fonts/TitilliumText25L002-webfont.svg#TitilliumText25L600wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText25L400wt';
+    src: url('../fonts/TitilliumText25L003-webfont.eot');
+    src: url('../fonts/TitilliumText25L003-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TitilliumText25L003-webfont.woff') format('woff'),
+         url('../fonts/TitilliumText25L003-webfont.ttf') format('truetype'),
+         url('http://10.93.48.54:8080/primary/landing2#TitilliumText25L400wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText25L250wt';
+    src: url('http://10.93.48.54:8080/primary/landing2');
+    src: url('http://10.93.48.54:8080/primary/landing2#iefix') format('embedded-opentype'),
+         url('../fonts/TitilliumText25L004-webfont.woff') format('woff'),
+         url('../fonts/TitilliumText25L004-webfont.ttf') format('truetype'),
+         url('../fonts/TitilliumText25L004-webfont.svg#TitilliumText25L250wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText25L1wt';
+    src: url('../fonts/TitilliumText25L005-webfont.eot');
+    src: url('../fonts/TitilliumText25L005-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TitilliumText25L005-webfont.woff') format('woff'),
+         url('../fonts/TitilliumText25L005-webfont.ttf') format('truetype'),
+         url('../fonts/TitilliumText25L005-webfont.svg#TitilliumText25L1wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText25L999wt';
+    src: url('../fonts/TitilliumText25L-webfont.eot');
+    src: url('../fonts/TitilliumText25L-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TitilliumText25L-webfont.woff') format('woff'),
+         url('../fonts/TitilliumText25L-webfont.ttf') format('truetype'),
+         url('../fonts/TitilliumText25L-webfont.svg#TitilliumText25L999wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.item-page table{
+  border-collapse:collapse;
+}
+.table{width:100%;}
+.item-page td {
+ /* border: 1px solid; */
+  font-size: 13px;
+  padding: 5px;
+}
+* {margin:0; padding:0; outline:0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {display: block;}
+img {display:block; border:none; }
+ul,ol {list-style:none;}
+a {text-decoration:none;}
+body {background:#fff; line-height:100%; font-size:100%; font-family:'TitilliumText25L400wt', "Trebuchet MS", Arial, Helvetica, sans-serif; color:#808285;}
+
+/** TYPOGRAPHY **/
+p {font-size:0.8125em; padding:0 0 10px; color:#999; }/*13px/16px*/
+h1 {font-size:1.875em; line-height:100%; font-family:'TitilliumText25L250wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}/*30px/16px*/
+h2 {font-size:1.25em; font-weight:normal;line-height: 100%;}/*20px/16px*/
+
+
+/** GENERAL CLASSES **/
+.center_layout {width:960px; margin-left:auto; margin-right:auto;}
+.expand {max-width:100%;}
+.caps {text-transform:uppercase;}
+.clr {clear:both;}
+.no_margin {margin-right:0 !important;}
+.no_border {border:none !important;}
+.purple_color {background:#b30fb8 url(../images/purple_color.png) repeat-x left bottom;}
+.grey_color {background:#d8d8d8 url(../images/grey_grad_tools.png) repeat-x left bottom;}
+.yellow_color {background:#eeac00 url(../images/yellow_grad_tool.png) repeat-x left bottom;}
+.purple_btn {background:#c110c6 url(../images/purple_btn.png) repeat-x left bottom;}
+.purple_btn:hover {background:#c110c6;}
+.orange_btn {background:#feb800 url(../images/yellow_menu.png) repeat-x left bottom;}
+.orange_btn:hover {background:#feb800;}
+
+.overlay{width: 100%; height: 100%;position: fixed; background-image: url(../images/overlay-bg.png); top: 0; right: 0; left: 0;z-index: 9999999}
+    .overlay-content{background-color: #fff; width: 30%; margin: auto; position: absolute;left: 0; right: 0; top: 50%; bottom: 50%;text-align: center; height: 34%;}
+    .clear{width: 100%; display: block;clear: both;}
+    .download-form{ background-image: url(../images/yellow_grad_tool.png);display: block;width: 60%;padding: 14px 0;color: #fff;text-decoration: none;text-transform: uppercase; margin: auto; border-radius: 10px;}
+    .close-btn{float: right; background-color: #611863; padding: 20px; padding: 12px 19px;color: #fff;margin-bottom: 1.3em;cursor: pointer;}
+
+
+/** LAYOUT CONTAINERS AND THEIR RELATED ELEMENTS **/
+
+/***************** Header */
+#top_header {background:#fefefe url(../images/header_bg.png) repeat-x left bottom; box-shadow:1px 1px 1px 1px #ccc; position:relative; z-index:3 }
+#header_inner_section {padding:0 0 15px; position: relative;}
+#header_inner_section:after {visibility:hidden; display: block; content: ""; clear: both; height: 0;}
+*:first-child+html #header_inner_section{ zoom: 1; }
+#oriental_logo {float:left; margin:15px 0 0;}
+#menus_cont {float:right; position:relative;}
+#top_menu {overflow:hidden; margin:15px 0 0; float:left;}
+#top_menu li {float:left; margin: 0 0 5px;}
+#top_menu li a {float:left; font-size:12px; color:#56575a; padding:0 7px; border-right:1px solid #747577; line-height:100%; transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out;}
+#top_menu li:last-child a {border:none;}
+#top_menu li.active a, #top_menu li a:hover {color:#f3b101;}
+#my_oriental_outer_cont {float:right; background:url(../images/my_oriental_bg.png) no-repeat center top; padding: 8px 68px 8px 88px; margin:0 0 22px;}
+.my_oriental_link {color:#fff; background:url(../images/down_arrow.png) no-repeat right center; display:block; padding:0 20px 0 0; font-size:17px; text-shadow:1px 1px 1px #888; position:relative; top:-3px; left: -4px; font-family:'TitilliumText25L800wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#mainmenu_search_cont {clear:both; overflow:hidden; background: #854b87 url(../images/main_menu_bg.png) repeat-x left top;  border-radius: 25px;margin: 0 0 0 0;}
+#main_menu {float:left; padding: 8px 0 8px 15px;}
+#main_menu li {float:left; margin:0 5px 0 0;}
+#main_menu li a {color:#fff; padding:10px 16px; float:left; border-radius: 18px; font-family:'TitilliumText25L800wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#main_menu li a:hover {background:#efae02}
+#main_menu li.active a  {background:#feb800 url(../images/yellow_menu.png) repeat-x left bottom;box-shadow: 1px 1px 10px -1px #222;}
+#top_search {float:right; position:relative;  border-radius: 26px; width: 190px; margin:11px 15px 0 0;}
+.search_txtbox {display:block; width:132px; background:#f1f5f7 url(../images/grey_search.png) repeat-x left bottom; border:none; font-size:12px; color:#5c5a5a; padding: 7px 5px 7px 23px;  border-radius: 16px; float:left; margin:0 5px 0 0;}
+.search_submit {display:block; width:25px; height:20px; border:none; background:url(../images/magnify_glass.png) no-repeat; font-size:0px; line-height:0; cursor:pointer; float:left; margin: 8px 0 0;}
+.search_submit:hover {opacity:0.8; transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out;}
+.mobi_menu {display: block; width: 20px; height: 15px; background:url(../images/mobile_menu.png)  no-repeat; position: absolute; right:0; top:15px; cursor: pointer; display: none;}
+
+/***************** Second Level Menu */
+#second_level_menu {background:#f9f6f9 url(../images/second_level_grad.png) repeat-x left top;}
+#second_level_list {overflow:hidden; border-left:1px solid #ebddeb;}
+#second_level_list li {float:left;}
+#second_level_list li a {float:left; color:#363535; font-size:14px; transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out; padding:19px 14px; font-family:'TitilliumText25L250wt', "Trebuchet MS", Arial, Helvetica, sans-serif; border:1px solid #ebddeb;border-left:none; border-top:none;}
+#second_level_list li:last-child a {border-right:1px solid #ebddeb; }
+#second_level_list li.active a {font-family:'TitilliumText25L600wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#second_level_list li.active a, #second_level_list li a:hover {color:#743676; }
+
+/***************** Banner */
+#banner_section {position:relative; z-index:2; width:100%;}
+.banner_window {width:100%; overflow:hidden; position:relative}
+.banner_holder {width:100%; position:relative}
+.banner_holder li {float:left; width:100%;}
+.banner_holder li a {float:left; width:100%;}
+.banner_holder img{width:100%;}
+
+/***************** Latest News */
+#latest_news_section {background:#fefefe url(../images/header_bg.png) repeat-x left bottom; height:60px; border-bottom:1px solid #e2e2e2}
+#inner_latest_news_section {overflow:hidden;}
+.latest_news_title {background:url(../images/latest_news_intro.png) no-repeat; display:block; width: 116px; height: 41px; float:left; font-size:15px; color:#fff;padding: 4px 0 0 12px;margin: 8px 0 0;}
+.latest_news_title .bold {display:block; font-weight:bold;}
+.latest_news_stream_outer {float:left; width:790px; height:40px; position:relative; overflow:hidden; margin-top: 20px; margin-left: 15px; }
+.latest_news_stream_holder {height:9999em; position:relative; }
+.latest_news_stream {height:60px;}
+.latest_news_stream p {padding: 11px 15px; color:#5d5d5d;line-height: 140%;}
+.latest_news_arrows {float:right; height:60px; width:20px; position:relative;}
+.latest_news_arrows li {display:block;}
+.top_arrow {position:absolute; top:0; left:0;}
+.bottom_arrow {position:absolute; bottom:0; left:0;}
+.latest_news_arrows li a {display:block; background:#d6d7d8; width:12px; height:12px; padding:4px; cursor:pointer; }
+.latest_news_arrows li a img {transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out;}
+.top_arrow a:hover img {position:relative; bottom:2px;}
+.bottom_arrow a:hover img {position:relative; top:2px;}
+.latest_news_stream p a {color:#990099; font-family:'TitilliumText25L800wt', "Trebuchet MS", Arial, Helvetica, sans-serif; transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out;}
+.latest_news_stream p a:hover {color:#363738;}
+
+/***************** Midsection */
+/** Home **/
+#inner_mid_section {padding: 25px 0 167px; overflow:hidden;}
+.brief_intro_cont {width:330px; position:relative; float:left;margin: 0 25px 0 0;}
+.brief_intro_cont img {position:relative; z-index:9}
+.brief_intro {position:absolute; top: 20px; left: 58px; width: 272px;box-shadow: 1px 1px 1px 1px #ccc; border-top-right-radius: 5px; border-bottom-right-radius: 5px;}
+.brief_intro2 {position:absolute; top: 81px; left: 58px; width: 272px;box-shadow: 1px 1px 1px 1px #ccc; border-top-right-radius: 5px; border-bottom-right-radius: 5px;}
+.intro_title {background:#dddcdc; display:block; color:#363738; font-size:17px; padding: 9px 0 9px 105px; text-transform:uppercase; border-top-right-radius: 5px;}
+.intro_links {width:100%}
+.intro_links li {display:block;  background:#f5f5f5 url(../images/intro_links_grad.png) repeat-x left bottom; }
+.intro_links li:last-child {border-bottom-right-radius: 5px;}
+.intro_links li a {display:block; margin:0 0 0 105px; background:url(../images/purple_dot.png) no-repeat left center; padding: 5px 0 5px 11px; color:#363738; font-size:14px; transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out; font-family:'TitilliumText25L600wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.intro_links li a:hover {color:#990099;}
+.tools_container {width: 250px; float: left;}
+.tools {width: 91%; overflow:hidden; display:block;padding: 8px 4%;border-radius: 7px; margin:0 0 13px;}
+.tool_icon {float:left;}
+.tool_label {float:left; font-size:15px;margin: 4px 0 0 50px;line-height: 121%; font-family:'TitilliumText25L800wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.currency_converter_tool {border:1px solid #790a7d;display:none !important}
+.grey_color.tools.loan_calculator_tool { margin-top: 19px;}
+.currency_converter_tool:hover {background:#b30fb8}
+.currency_converter_tool .tool_label{color:#fff;}
+.loan_calculator_tool {border:1px solid #ababab;}
+.loan_calculator_tool:hover {background:#d8d8d8;}
+.loan_calculator_tool .tool_label{color:#000000;}
+.deposit_calculator_tool {border:1px solid #cca02c;}
+.deposit_calculator_tool:hover {background:#eeac00;}
+.deposit_calculator_tool .tool_label{color:#fff;}
+
+/** Products **/
+#main_content {float:left; width:711px; margin:0 30px 0 0;}
+#main_content_full {float:left; width:100%; margin:0 30px 0 0;}
+.all_products_cont {overflow:hidden;margin: 26px 0 0;}
+.single_product {width: 317px; float:left; overflow:hidden; padding:25px 10px; background:#f8f8f8;margin: 0 30px 30px 2px;height: 180px;border-radius: 5px;box-shadow: 1px 1px 6px -1px #ccc;}
+#loan_product .product_icon {float:left;margin: 17px 0 0;}
+#investment_product .product_icon {float:left;margin: 23px 0 0;}
+#mobile_banking_product .product_icon {float:left;margin: -7px 0 0;}
+#cards_product .product_icon {float:left;margin: 13px 0 0;}
+.product_intro {float: right;width: 182px;margin: 0 0 0 20px;}
+.product_title {color:#000; margin:0 0 15px; font-family:'TitilliumText25L600wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.product_intro p {color:#737273; line-height: 125%;}
+.read_more_btn {font-size:13px; color:#fff; text-transform:uppercase; display:block; padding:7px 0; width:88px; text-align:center; border-radius: 5px; font-family:'TitilliumText25L800wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#left_content {float:left; width: 311px; margin:0 30px 0 0;}
+.page_title {color:#6e2f70; font-size: 25px; margin:0 0 36px;}
+.page_title span {font-family:'TitilliumText25L800wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.descriptive_image_cont {margin: 43px 0 0;}
+.descriptive_image_cont img {max-width:100%;}
+#center_content {float:left; width: 370px; margin:0 30px 0 0;}
+#center_content p {color: #737273; font-size: 13px; padding: 0 0 20px;line-height: 134%;}
+.apply_now {display:block; padding:17px 0; font-size:18px; color:#fff; text-transform:uppercase; text-align:center; width:185px;border-radius: 5px; font-family:'TitilliumText25L999wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#center_content h2 {color: #6E2F70; font-family: 'TitilliumText25L600wt',"Trebuchet MS",Arial,Helvetica,sans-serif; margin: 0 0 16px;}
+#center_content h3, #center_content h4 {color: #333; font-family: 'TitilliumText25L400wt',"Trebuchet MS",Arial,Helvetica,sans-serif; font-size: 14px; margin: 0 0 9px; font-weight: normal;}
+#center_content ul {margin: 0 0 30px 23px;}
+#center_content ul li {color: #737273; font-size: 13px; line-height: 134%; background:url(../images/bullet.png) no-repeat 0 5px; padding: 0 0 5px 15px}
+#right_content {float:right; width:219px}
+.image_ads_cont {text-align:center; display:block;}
+.image_ads_cont img {max-width:100%; display:inline;}
+.view_all_products {font-family: 'TitilliumText25L999wt',"Trebuchet MS",Arial,Helvetica,sans-serif; }
+#products_intro ul li:last-child a {background: none; font-size: 13px; font-family: 'TitilliumText25L999wt',"Trebuchet MS",Arial,Helvetica,sans-serif; font-size: 13px;}
+#center_content table {width:100%;}
+#center_content tr {width:100%;}
+#center_content th {color:#6e2f70; font-size: 12px; vertical-align: baseline;}
+#center_content ## th {color:#fff;}
+#mod_simpleemailform_reset_1, #mod_simpleemailform_submit_1 {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+#mod_simpleemailform_captcha_1 {
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+#center_content td {font-size: 12px;}
+
+/** Our Board **/
+.all_board_members .single_product {height:140px;}
+.all_board_members .product_icon {width:111px; margin: 0 !important;}
+.all_board_members .product_icon img {max-width: 100%;}
+
+
+/** Two Column **/
+.content_container {margin: 26px 0 0;}
+.content_container p{color:#737273; font-size:13px; padding: 0 0 20px;line-height: 134%;}
+
+/** Branch Network **/
+.branch_network {width:100%; margin: 26px 0 0;height: 390px;}
+.branch_network iframe {width:100%; height:100%;}
+
+/** News and Updates **/
+.new_article_title {color: #6E2F70; font-family: 'TitilliumText25L600wt',"Trebuchet MS",Arial,Helvetica,sans-serif; margin: 0 0 15px; font-size: 1.25em}
+
+
+/** Item Page **/
+.item-page h2 {color: #6E2F70; font-size:25px; line-height:100%; font-family:'TitilliumText25L250wt', "Trebuchet MS", Arial, Helvetica, sans-serif; margin: 0 0 15px;}
+.item-page p {color: #737273; font-size: 13px; line-height: 134%; padding: 0 0 20px;}
+.item-page li{color: #737273; font-size: 13px; line-height: 134%; padding: 0 0 10px;list-style: disc outside none;}
+.item-page ul {list-style: none outside none;margin-bottom: 5px;padding-left: 30px;}
+.aboutus p strong{font-family:'TitilliumText25L400wt',"Trebuchet MS",Arial,Helvetica,sans-serif;}
+
+/** Career Page **/
+.career_title {color: #6E2F70; font-family: 'TitilliumText25L600wt',"Trebuchet MS",Arial,Helvetica,sans-serif; margin: 0 0 15px; font-size: 1.25em}
+.career_intro p {color: #737273; font-size: 13px; line-height: 134%; padding: 0 0 20px;}
+
+/** CSR Activities **/
+.activity_title h2 {color: #6E2F70; font-family: 'TitilliumText25L600wt',"Trebuchet MS",Arial,Helvetica,sans-serif; margin: 0 0 15px; font-size: 1.25em}
+.activity_intro_text p {color: #737273; font-size: 13px; line-height: 134%; padding: 0 0 20px;}
+
+/** Annual Report **/
+.annual_report {margin:0 0 30px}
+.annual_report_title h2 {color: #6E2F70; font-family: 'TitilliumText25L600wt',"Trebuchet MS",Arial,Helvetica,sans-serif; margin: 0 0 6px; font-size:16px}
+.annual_report_intro_text p {color: #737273; font-size: 13px; line-height: 134%; padding: 0 0 12px;}
+
+/** ATM Locator **/
+#frm_town_filter {overflow: hidden; margin: 26px 0;}
+#frm_town_filter label {float:left; color:#000000; font-family: 'TitilliumText25L800wt',"Trebuchet MS",Arial,Helvetica,sans-serif; font-size: 15px; line-height: 100%; margin:10px 15px 0 0;}
+.town_filter_select_wrap {float:left; width:187px; position:relative;}
+.town_filter_select_wrap select{width:100%; height: 40px!important;}
+.town_filter_select_wrap span.customStyleSelectBox { font-size: 12px; background: #f2f2f2; color:#000; padding: 8px 4%; border: 1px solid #838383;  border-radius:5px; line-height: 11px; width: 91%;}
+.town_filter_select_wrap span.customStyleSelectBox.changed { background: #f2f2f2; }
+.town_filter_select_wrap .customStyleSelectBoxInner { background:url(../images/select_dropdown.png) no-repeat center right; padding: 5px 0; width: 100% !important;}
+
+/** Policies **/
+.item-page .title {color: #6E2F70; font-family: 'TitilliumText25L600wt',"Trebuchet MS",Arial,Helvetica,sans-serif; font-size: 1.25em; margin: 0 0 15px;}
+p strong {font-weight: normal; font-family: 'TitilliumText25L800wt',"Trebuchet MS",Arial,Helvetica,sans-serif; font-size: 15px; line-height: 100%;}
+.item-page p {text-align: left !important; margin:0 !important; line-height: 134% !important}
+.item-page p br {display: none;}
+.item-page p a {color:#990099; font-family:'TitilliumText25L800wt', "Trebuchet MS", Arial, Helvetica, sans-serif; transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out;}
+.item-page p a:hover {color:#363738;}
+
+/** Contact Us **/
+.contacts_page {background:#d41332 url(../images/contact_bg.jpg) repeat-x left bottom;}
+.contacts_second_wrapper {background:url(../images/contact_parrots.png) no-repeat left bottom; }
+.contacts_page  .page_title {color:#fff;}
+.contact_tabs {overflow: hidden; margin: 0 0 25px !important;}
+.contact_tabs li {float:left; margin-right: 3px; background: none !important; padding:0 !important; line-height: 100% !important; }
+.contact_tabs li a {background: #de354c; float:left; width: 127px; padding: 15px; font-size: 12px; color: #fff; font-family:'TitilliumText25L800wt', "Trebuchet MS", Arial, Helvetica, sans-serif; border:1px solid #cd233a}
+.contact_tabs li.active a {background: #c7132b; border:1px solid #b8122a}
+.tab_titles {font-size: 22px; font-family:'TitilliumText25L999wt', "Trebuchet MS", Arial, Helvetica, sans-serif; margin: 0 0 20px; display: block; color:#fff}
+.contact_tabs_content_holder {margin:0 0 20px;height: 360px;}
+.contact_tabs_content {overflow: hidden; display: none;}
+.contact_tabs_content.active {display:block;}
+.contact_tabs_content p {text-transform: uppercase; padding:0 0 6px !important; color:#faccd3 !important;}
+.contact_tabs_content p strong {font-family:'TitilliumText25L800wt', "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: normal; color:#faccd3;}
+.view_map_icon {background: url(../images/view_map_icon.png) no-repeat left center; display: block; font-size: 12px; font-family:'TitilliumText25L800wt', "Trebuchet MS", Arial, Helvetica, sans-serif;padding: 10px 0 7px 32px;color: #fff; margin:0 0 20px;}
+.view_branch_network_link {overflow: hidden; float:left; padding: 2px 0; height: 42px; color:#fff;font-size: 12px;border-radius: 5px; border:1px solid #cca02c}
+.view_branch_network_link:hover {background:#eeac00}
+.view_branch_network_link img {float:left; padding:8px 9px; border-right: 2px solid #a37806;}
+.view_branch_network_link span {float:left; padding: 12px 26px 0 11px;}
+.feedback_form {width:100%;}
+.feedback_form label {display: block; font-size: 13px; font-family:'TitilliumText25L800wt', "Trebuchet MS", Arial, Helvetica, sans-serif; color: #000; margin: 0 0 5px;}
+.feedback_form input[type="text"] {width:95%; background:#f2f2f2; display: block; font-size: 13px; color: #000; border: 1px solid #ccc; border-radius: 5px; padding: 4px 2%;margin: 0 0 4px;}
+.feedback_form textarea {width:95% !important; height:60px; background:#f2f2f2; display: block; font-size: 13px; color: #000; border: 1px solid #ccc; border-radius: 5px; padding: 6px 2%;margin: 0 0 14px;}
+.feedback_form input[type="submit"], .feedback_form input[type="button"] {font-size: 13px; color: #fff;text-transform: uppercase; display: block; padding: 7px 0; width: 88px; text-align: center; border-radius: 5px; font-family: 'TitilliumText25L800wt', "Trebuchet MS", Arial, Helvetica, sans-serif; border: none; cursor: pointer; background: #c110c6 url(../images/purple_btn.png) repeat-x left bottom;}
+.feedback_form input[type="submit"]:hover, .feedback_form input[type="button"]:hover {background:#c110c6}
+
+/** Downloads **/
+.downloads_page {background: url(../images/downloads_bg.jpg) no-repeat left bottom; }
+.downloads_page #inner_mid_section {padding-bottom: 70px;}
+.download_container {float: right;}
+.download_item {display: block; height: 40px; color:#a7a5a7; font-size: 14px;
+ 
+  
+
+ font-family:'TitilliumText25L600wt', "Trebuchet MS", Arial, Helvetica, sans-serif; padding:23px 0 0 69px; margin: 0 0 10px; transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out;
+ margin: 0 0 10px;
+  padding: 15px 64px 15px 69px;
+  text-align: center;
+  width: 181px;
+ }
+.download_item:hover {opacity:0.7;}
+.pdf_download {background: url(../images/download_pdf.png) no-repeat left top;}
+.pagination_cont {float: right; margin: 10px 0 0;}
+.pagination_cont li {float: left; margin-left: 3px;}
+.pagination_cont li a {float: left; width: 24px; height: 18px; background: #d5d3d3; color:#6c696c; font-size: 13px; text-align: center; padding: 3px 0 0; font-family:'TitilliumText25L600wt', "Trebuchet MS", Arial, Helvetica, sans-serif; transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out;}
+.pagination_cont li.active a, .pagination_cont li.active a:hover {background:#f79108; color: #fff;}
+.pagination_cont li a:hover {background: #e1dfdf;}
+
+.half {
+  float: left;
+  width: 50%;
+ 
+}
+
+.branchnet p{
+line-height:45% !important;
+}
+
+
+  
+/***************** Footer */
+#bottom_footer {background:#fcfcfc url(../images/footer_grad.png) repeat-x left top; border-top:1px solid #d4d4d4;}
+#inner_bottom_footer {overflow:hidden; padding:24px 0;position:relative;}
+.isocont{position:relative;}
+.iso {
+  bottom: 19px;
+  position: absolute;
+  right: 0;
+}
+.iso img {
+  float: left;
+  margin-left: 8px;
+  max-height: 50px;
+}
+.copy_right {float:left; font-size:13px; color:#363738; margin: 10px 0 0; font-family:'TitilliumText25L400wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#copy_right_txt {float:left; padding-right:9px; border-right:1px solid #525253; line-height: 100%;}
+.copy_right a {float:left; padding:0 9px; border-right:1px solid #525253; color:#363738; line-height: 100%;}
+.copy_right a:hover {color:#f3b101;}
+
+.product_by a{color:#363738; line-height: 100%;}
+.product_by a:hover {color:#f3b101;}
+
+.copy_right a:last-child {border: none}
+#newsletter_signup_form , .mcsignup form{float:left; width: 213px; position:relative; margin-left: 41px;}
+#newsletter_signup_form label {color:#363738; font-size:12px; text-transform:uppercase; display:block; margin:0 0 10px; font-family:'TitilliumText25L600wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.newsletter_signup_txtbox, #EMAIL {display:block; width: 65%; padding:3.1% 25% 3.2% 7%; border-radius: 12px; border:1px solid #c9cecf; color:#000; font-size:13px; background: #f1f5f7 url(../images/grey_search.png) repeat-x left bottom !important; text-transform: lowercase; font-family: 'TitilliumText25L600wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.newsletter_signup_submit, .mcsignup form .button{position:absolute; right: -5px; bottom:6px; background:url(../images/sign_up_btn.png) repeat-x left bottom; border:none; display:block; color:#fff;  cursor:pointer; width:50px; height:30px; text-indent:-9999em; font-size:0px; line-height:0; }
+.footer_social_icons {float:left; margin: 0px 0 0 39px;}
+
+.mcsignupResult, .tryAgain {
+  background: none repeat scroll 0 0 #EEAC00;
+  border: 1px solid;
+  bottom: -4px;
+  color: #FFFFFF;
+  padding: 8px 10px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 99;
+}
+.tryAgain{background: none repeat scroll 0 0 #FF0000;}
+
+.footer_social_icons a {font-size:0px; line-height:0; float:left; width:31px; height:31px; background:url(../images/social_icons.png) no-repeat; margin-right: 3px;}
+.footer_social_icons a:hover {-webkit-transform: rotate(360deg); transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg); }
+a.fb_icon:hover {background-position:0px -31px;}
+a.tweet_icon {background-position:-31px 0;}
+a.tweet_icon:hover  {background-position:-31px -31px;}
+a.youtube_icon {background-position:-62px 0;}
+a.youtube_icon:hover {background-position:-62px -31px;}
+.product_by {float:right; width:25px; height:25px; background:url(../images/digital-republic-b.png) no-repeat;}
+.product_by:hover { width:25px; height:25px; background:url(../images/digital-republic-r.png) no-repeat;}
+
+/* Lightbox */
+.black_overlay {width:100%; height:100%; position:fixed; z-index:999; left:0; top:0; background:url(../images/black_overlay.png); display: none;}
+.modal_cont {width:100%; height:100%; position:fixed; z-index:10000; left:0; top:0; display: none;}
+.calculator_modal_cont {width:100%; height:100%; position:fixed; z-index:10000; left:0; top:0; display: none;}
+.currency_conveter_modal {position:fixed; width:325px; top:100px; left:-400px; background:#751378; padding: 15px 38px 15px 15px;box-shadow: 1px 1px 1px 1px #222; border-top-right-radius: 3px; border-bottom-right-radius: 3px;}
+.loan_calculator_modal {position:fixed; width:325px; top:100px; left:-400px; background:#751378; padding: 15px 38px 15px 15px;box-shadow: 1px 1px 1px 1px #222; border-top-right-radius: 3px; border-bottom-right-radius: 3px;}
+.modal_title {background:#feb800 url(../images/yellow_menu.png) repeat-x left bottom; display: block; width: 94%; color:#fff; font-size: 24px; line-height: 100%;padding: 2% 3%; border-radius:5px;box-shadow: 0px 0px 10px 0px #222; font-family:'TitilliumText25L999wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.modal_tabs {overflow: hidden;position: relative;z-index: 20;padding: 0 0 0 10px;margin: 15px 0 0 0;}
+.modal_tabs li {float:left;}
+.modal_tabs li a {padding:8px 13px; float:left; background:#ebebeb url(../images/grey_btn.png)repeat-x left bottom; border-radius:4px; margin:0 4px 0 0; color:#000; font-size: 14px; border-left: 1px solid #efefef; border-right: 1px solid #efefef; cursor: pointer;}
+.modal_tabs li.active a {border-top-left-radius:4px; border-top-right-radius:4px; border-bottom-left-radius:0; border-bottom-right-radius:0;height: 38px; background:#fff; color:#701473;}
+.tabs_content_cont {background:#fff; border-radius:5px; padding:35px 25px;position: relative;top: -16px; overflow: hidden;}
+.tabs_content.active {display:block;}
+.tabs_content {display:none;}
+.convert_from_cont {overflow: hidden;}
+.amount_field {float:left; width:60px; background: #f2f2f2; border:none; font-size: 15px; color:#000; text-align: center; border: 1px solid #838383; border-radius:5px; padding: 10px 0;margin: 0 26px 0 0; font-family:'TitilliumText25L999wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.converter_select_cont {float:left; width:187px; position:relative;}
+.converter_select_cont select{width:100%; height: 40px!important;}
+.converter_select_cont span.customStyleSelectBox { font-size: 12px; background: #f2f2f2; color:#000; padding: 8px 4%; border: 1px solid #838383;  border-radius:5px; line-height: 11px; width: 91%;}
+.converter_select_cont span.customStyleSelectBox.changed { background: #f2f2f2; }
+.converter_select_cont .customStyleSelectBoxInner { background:url(../images/select_dropdown.png) no-repeat center right; padding: 5px 0; width: 100% !important;}
+.to_txt {width:36px; height: 29px; display:block; background:url(../images/yellow_small_circle.png) no-repeat; color:#fff; font-size:15px;text-align: center;padding: 7px 0 0 0;margin: 17px auto; font-family:'TitilliumText25L999wt', "Trebuchet MS", Arial, Helvetica, sans-serif;}  
+.convert_to_select {width:100%; }
+.convert_btn {float: left; border: none; color: #fff; padding:12px 27px; font-size: 16px; border-radius:5px; margin:25px 0 0; cursor: pointer;box-shadow: 0px 0px 3px 1px #888;font-family:'TitilliumText25L999wt', "Trebuchet MS", Arial, Helvetica, sans-serif; }
+.close_modal_btn {position:absolute; top: 129px; right: -23px; width:56px; height:57px; background:url(../images/close_btn.png) no-repeat; font-size:0; line-height:0;z-index: 9; cursor: pointer;}
+.calculator_close_modal_btn {position:absolute; top: 129px; right: -23px; width:56px; height:57px; background:url(../images/close_btn.png) no-repeat; font-size:0; line-height:0;z-index: 9; cursor: pointer;}
+
+/*Map Style*/
+#map_canvas{height:500px; width:100%;}
+#ajaxLoader > img {
+  width: 30px;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 840px) and (max-width: 990px) {
+  
+/** GENERAL CLASSES **/
+.center_layout {width:800px;}
+
+/***************** Header */
+#top_menu {margin: 22px 0;}
+#main_menu {padding:5px 0 5px 5px;}
+#main_menu li a {font-size:14px; padding:5px 10px;}
+#top_search {margin:7px 5px 0 0; width: 190px}
+.search_txtbox {padding: 4px 5px 4px 23px; font-size: 13px;}
+.search_submit {margin:4px 0 0;}
+#my_oriental_outer_cont {position: absolute; right: 0; top:0;}
+
+/***************** Latest News */
+#latest_news_section {height:72px;}
+.latest_news_stream_outer {width:652px; height:72px;}
+.latest_news_arrows {height:72px;}
+
+/***************** Midsection */
+/** Home **/
+#products_intro {float: right; margin:0 2px 0 0;}
+.tools_container {width:100%; margin: 30px 0 0;}
+.tools {width:194px; margin:0 10px 13px 0; float:left;}
+.tools:last-child {margin-right: 0 !important}
+
+/** Products **/
+#main_content {width:551px}
+#left_content {width:215px;}
+#center_content {width:306px;}
+.single_product {padding:25px 2%; width:95%;}
+.product_intro {width:340px;}
+
+/***************** Footer */
+#newsletter_signup_form {margin-left: 9px;}
+.footer_social_icons {margin:0 0 0 59px}
+.footer_social_icons a:last-child {margin-right: 0;}
+.product_by {margin:35px 0 0}
+
+.half {
+  float: left;
+  width: 50%;
+ 
+}
+
+.branchnetwork p{
+line-spacing:100% !important;
+}
+}
+
+@media only screen and (min-width: 680px) and (max-width: 839px) {
+  
+/** TYPOGRAPHY **/
+h1 {font-size:1.5625em}/*25px/16px*/
+h2 {font-size:1.0625em}/*17px/16px*/
+  
+/** GENERAL CLASSES **/
+.center_layout {width:650px;}
+
+/***************** Header */
+#oriental_logo {width:90px;}
+#oriental_logo img {max-width: 100%;}
+#top_menu {margin:21px 0; float: right;}
+#main_menu {padding:5px 0 5px 5px;}
+#main_menu li a {font-size:13px; padding:5px 6px;}
+#top_search {margin:6px 5px 0 0; width:163px}
+.search_txtbox {padding: 4px 5px; width:122px; font-size: 13px;}
+.search_submit {margin:5px 0 0;}
+#my_oriental_outer_cont {display:none;}
+
+/***************** Second Level Menu */
+#second_level_list {border-left:none;}
+#second_level_list li {width:100%}
+#second_level_list li a {width:96%; padding: 9px 2%; border-left: none; border-top:none;}
+
+/***************** Latest News */
+#latest_news_section {height:72px;}
+.latest_news_title {margin:15px 0 0}
+.latest_news_stream_outer {width:502px; height:72px;}
+.latest_news_stream p {line-height: 120%;}
+.latest_news_arrows {height:72px;}
+
+/***************** Midsection */
+/** Home **/
+.brief_intro_cont {width:311px;}
+#products_intro {float: right; margin:0 2px 0 0;}
+.brief_intro {width:245px;}
+.tools_container {width:100%; margin: 30px 0 0;}
+.tools {width:156px; margin:0 10px 13px 0; float:left;}
+.tools:last-child {margin-right: 0 !important}
+.tool_label {margin:4px 0 0 23px;}
+
+/** Products **/
+#main_content {width:430px}
+#left_content {width:140px; margin: 0 25px 0 0;}
+#center_content {width:270px; margin: 0 25px 0 0;}
+#center_content p {line-height: 150%;}
+.single_product {padding:25px 2%; width:95%;}
+.product_intro {width:274px;}
+#right_content {width:190px;}
+#right_content .tools{width:91%; padding: 8px 4%;}
+#right_content .tool_label {margin: 4px 0 0 39px}
+
+/** Two Column **/
+.content_container p{line-height: 150%}
+
+/***************** Footer */
+#newsletter_signup_form {margin-left: 11px}
+.footer_social_icons {margin:25px 0 0; clear: both;}
+.footer_social_icons a:last-child {margin-right: 0;}
+.product_by {margin: 32px 0 0}
+
+.half {
+  float: left;
+  width: 100%;
+ 
+}
+
+
+
+}
+
+@media only screen and (min-width: 525px) and (max-width: 679px) {
+  
+/** TYPOGRAPHY **/
+h1 {font-size:1.5625em}/*25px/16px*/
+h2 {font-size:1.0625em}/*17px/16px*/
+  
+/** GENERAL CLASSES **/
+.center_layout {width:500px;}
+
+/***************** Header */
+#page_wrapper {padding:105px 0 0;}
+#top_header {position:fixed; left:0; top:0; width:100%; z-index: 9999; }
+#menus_cont {position: absolute; left: 0; top: 0; width:100%; background:#fefefe url(../images/header_bg.png) repeat-x left bottom; display: none;}
+#mainmenu_search_cont {border-radius:5px; padding: 0 0 15px;}
+#top_menu {margin:15px 0;}
+#main_menu {padding:0; width:100%;}
+#main_menu li {width:100%;}
+#main_menu li a {font-size:13px; padding:5px 2%; border-radius:0; width:96%; }
+#main_menu li:first-child a {border-top-left-radius:5px; border-top-right-radius:5px}
+#main_menu li.active a {box-shadow:none;}
+#top_search {margin:4px 0 0 0; width: 96%; padding:0 2%; }
+.search_txtbox {padding:8px 2%; width:88%; font-size: 13px;}
+.search_submit {top:6px; right: 16px;}
+#my_oriental_outer_cont {display:none;}
+.mobi_menu {display: block;}
+#oriental_logo {width:83px;}
+#oriental_logo img {max-width: 100%;}
+
+/***************** Second Level Menu */
+#second_level_list {border-left:none;}
+#second_level_list li {width:100%}
+#second_level_list li a {width:96%; padding: 9px 2%; border-left: none; border-top:none;}
+
+/***************** Latest News */
+#latest_news_section {display: none;}
+
+/***************** Midsection */
+/** Home **/
+.brief_intro_cont {width:100%; margin: 0 0 20px;}
+#products_intro {float: right; margin:0 2px 0 0;}
+.brief_intro {left:8%; width: 83%; padding: 0 0 0 8%;}
+.tools_container {width:100%; margin: 30px 0 0;}
+.tools {width:91%; margin:0 0 13px 0; float:left;}
+.tools:last-child {margin-right: 0 !important}
+.tool_label {margin:4px 0 0 23px;}
+
+/** Products **/
+#main_content {width:100%}
+#left_content {width:100%; margin:0;}
+.descriptive_image_cont {margin:10px 0 0; text-align: center;}
+.descriptive_image_cont img {display: inline;}
+#center_content {width:100%; margin: 0 0 25px; }
+#center_content p {line-height: 150%;}
+.single_product {padding:25px 2%; width:95%; margin:0 0 30px 0;}
+.product_intro {width:274px;}
+#right_content {width:100%;;}
+#right_content .tools{width:91%; padding: 8px 4%;}
+#right_content .tool_label {margin: 4px 0 0 39px}
+
+/** Two Column **/
+.content_container {margin:25px 0;}
+.content_container p{line-height: 150%}
+
+/** Branch Network **/
+.branch_network {margin: 25px 0;}
+
+/***************** Footer */
+#inner_bottom_footer {padding: 15px 0;}
+.copy_right {margin:0;}
+#newsletter_signup_form {margin:15px 0 0; width:100%;}
+.newsletter_signup_txtbox {padding: 1.1% 10% 1.5% 2%; width:87%;}
+.newsletter_signup_submit {right:1px}
+.footer_social_icons {margin:25px 0 0 0px}
+.footer_social_icons a:last-child {margin-right: 0;}
+.product_by {margin:25px 0 0}
+
+.half {
+  float: left;
+  width: 100%;
+ 
+}
+
+
+
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 525px) {
+  
+/** TYPOGRAPHY **/
+h1 {font-size:1.5625em}/*25px/16px*/
+h2 {font-size:1.0625em}/*17px/16px*/
+  
+/** GENERAL CLASSES **/
+.center_layout {width:96%;}
+
+/***************** Header */
+#page_wrapper {padding:105px 0 0;}
+#top_header {position:fixed; left:0; top:0; width:100%; z-index: 9999; }
+#menus_cont {position: absolute; left: 0; top: 0; width:100%; background:#fefefe url(../images/header_bg.png) repeat-x left bottom; display: none;}
+#mainmenu_search_cont {border-radius:5px; padding: 0 0 15px;}
+#top_menu {margin:15px 0; padding: 0 25px 0 0;}
+#main_menu {padding:0; width:100%;}
+#main_menu li {width:100%;}
+#main_menu li a {font-size:13px; padding:5px 2%; border-radius:0; width:96%; }
+#main_menu li:first-child a {border-top-left-radius:5px; border-top-right-radius:5px}
+#main_menu li.active a {box-shadow:none;}
+#top_search {margin:4px 0 0 0; width: 96%; padding:0 2%; }
+.search_txtbox {padding:8px 2%; width:85%; font-size: 13px;}
+.search_submit {top:6px; right: 16px;}
+#my_oriental_outer_cont {display:none;}
+.mobi_menu {display: block;}
+#oriental_logo {width:83px;}
+#oriental_logo img {max-width: 100%;}
+.all_board_members .single_product {height:180px;}
+
+/***************** Second Level Menu */
+#second_level_list {border-left:none;}
+#second_level_list li {width:100%}
+#second_level_list li a {width:96%; padding: 9px 2%; border-left: none; border-top:none;}
+
+/***************** Latest News */
+#latest_news_section {display: none;}
+
+/***************** Midsection */
+/** Home **/
+.brief_intro_cont {width:100%; margin: 0 0 20px;}
+#products_intro {float: right; margin:0 2px 0 0;}
+.brief_intro {left:8%; width: 83%; padding: 0 0 0 8%;}
+.tools_container {width:100%; margin: 30px 0 0;}
+.tools {width:91%; margin:0 0 13px 0; float:left; display: none;}
+.tools:last-child {margin-right: 0 !important}
+.tool_label {margin:4px 0 0 23px;}
+
+
+/** Products **/
+#main_content {width:100%}
+#left_content {width:100%; margin:0;}
+.descriptive_image_cont {margin:10px 0 0; text-align: center;}
+.descriptive_image_cont img {display: inline;}
+#center_content {width:100%; margin: 0 0 25px; }
+#center_content p {line-height: 150%;}
+.single_product {padding:15px 2%; width:95%; margin:0 0 30px 0; height: auto;}
+.product_intro {width:50%; margin:20px 0 0;}
+#right_content {width:100%;;}
+#right_content .tools{width:91%; padding: 8px 4%;}
+#right_content .tool_label {margin: 4px 0 0 39px}
+
+/** Two Column **/
+.content_container {margin:25px 0;}
+.content_container p{line-height: 150%}
+
+/** Branch Network **/
+.branch_network {margin: 25px 0;}
+
+/*Map Style*/
+#map_canvas{height:500px; width:100%;}
+
+/***************** Footer */
+#inner_bottom_footer {padding: 15px 0;}
+.copy_right {margin:0;}
+#copy_right_txt, .copy_right a {line-height:150%;}
+#newsletter_signup_form {margin:15px 0 0; width:100%;}
+.newsletter_signup_txtbox {padding: 7px 10% 6px 2%; width:87%;}
+.newsletter_signup_submit {right:-1px}
+.footer_social_icons {margin:25px 0 0 0px}
+.footer_social_icons a:last-child {margin-right: 0;}
+.product_by {margin:25px 0 0}
+
+.half {
+  float: left;
+  width: 100%;
+ 
+}
+
+
+}
+
+@media only screen and (max-width: 320px) {
+  
+/** TYPOGRAPHY **/
+h1 {font-size:1.5625em}/*25px/16px*/
+h2 {font-size:1.0625em}/*17px/16px*/
+  
+/** GENERAL CLASSES **/
+.center_layout {width:96%;}
+
+/***************** Header */
+#page_wrapper {padding:105px 0 0;}
+#top_header {position:fixed; left:0; top:0; width:100%; z-index: 9999; }
+#menus_cont {position: absolute; left: 0; top: 0; width:100%; background:#fefefe url(../images/header_bg.png) repeat-x left bottom; display: none;}
+#mainmenu_search_cont {border-radius:5px; padding: 0 0 15px;}
+#top_menu {margin:15px 0; padding: 0 25px 0 0;}
+#main_menu {padding:0; width:100%;}
+#main_menu li {width:100%;}
+#main_menu li a {font-size:13px; padding:5px 2%; border-radius:0; width:96%; }
+#main_menu li:first-child a {border-top-left-radius:5px; border-top-right-radius:5px}
+#main_menu li.active a {box-shadow:none;}
+#top_search {margin:4px 0 0 0; width: 96%; padding:0 2%; }
+.search_txtbox {padding:8px 3% 8px 2%; width:80%; font-size: 13px;}
+.search_submit {top:6px; right: 16px;}
+#my_oriental_outer_cont {display:none;}
+.mobi_menu {display: block;}
+#oriental_logo {width:83px;}
+#oriental_logo img {max-width: 100%;}
+
+/***************** Second Level Menu */
+#second_level_list {border-left:none;}
+#second_level_list li {width:100%}
+#second_level_list li a {width:96%; padding: 9px 2%; border-left: none; border-top:none;}
+
+/***************** Latest News */
+#latest_news_section {display: none;}
+
+/***************** Midsection */
+/** Home **/
+.brief_intro_cont {width:100%; margin: 0 0 20px;}
+#products_intro {float: right; margin:0 2px 0 0;}
+.brief_intro {left:10%; width: 81%; padding: 0 0 0 8%;}
+.tools_container {width:100%; margin: 30px 0 0;}
+.tools {width:91%; margin:0 0 13px 0; float:left; display: none;}
+.tools:last-child {margin-right: 0 !important}
+.tool_label {margin:4px 0 0 23px;}
+
+/** Products **/
+#main_content {width:100%}
+#left_content {width:100%; margin:0;}
+.descriptive_image_cont {margin:10px 0 0; text-align: center;}
+.descriptive_image_cont img {display: inline;}
+#center_content {width:100%; margin: 0 0 25px; }
+#center_content p {line-height: 150%;}
+.single_product {padding:15px 2%; width:95%; margin:0 0 30px 0; height: auto;}
+.product_intro {width:50%; margin:20px 0 0;}
+#right_content {width:100%;;}
+#right_content .tools{width:91%; padding: 8px 4%;}
+#right_content .tool_label {margin: 4px 0 0 39px}
+.all_board_members .single_product {height:180px;}
+.iso img {margin-bottom: 20px;}
+
+
+/** Two Column **/
+.content_container {margin:25px 0;}
+.content_container p{line-height: 150%}
+
+/** Branch Network **/
+.branch_network {margin: 25px 0;}
+
+/***************** Footer */
+#inner_bottom_footer {padding: 15px 0;}
+.copy_right {margin:0;}
+#copy_right_txt, .copy_right a {line-height:150%;}
+#newsletter_signup_form {margin:15px 0 0; width:100%;}
+.newsletter_signup_txtbox {padding: 7px 19% 6px 2%; width:77%;}
+.newsletter_signup_submit {right:-1px}
+.footer_social_icons {margin:25px 0 0 0px}
+.footer_social_icons a:last-child {margin-right: 0;}
+.product_by {margin:25px 0 0}
+
+.half {
+  float: left;
+  width: 100%;
+ 
+}
+
+}
+.ppgallery {
+  float: left;
+  margin-top: 15px;
+  width: 100%;
+}
+.ppgallery > span {
+  background: none repeat scroll 0 0 #E6E6E6;
+  border: 3px solid #E6E6E6;
+  float: left;
+  height: 132px;
+  margin-bottom: 15px;
+  margin-right: 14px;
+  overflow: hidden;
+}
+.ppg_clr, .image_ads_cont{display:none;}
+
+
+
+
+.clear{clear:both;}
+.tabscontent ol li{
+ list-style: decimal outside none;
+    margin-left: 40px;
+}
+.latest_news_stream.current_new_item {
+  padding-top: 11px;
+}
+.tabs a{float:left;border:1px solid #cdcdcd;margin-right:5px;}
+.tabs a.selected{border:1px solid #5D034D;}
+
+#oriental table{float:left;clear:left;}
+#pesapoint, #oriental{clear:left;float:left;margin-top:10px}
+#pesapoint ol, #oriental ol{margin-bottom:10px;}
+#loan_notification_area {
+  float: left;
+  margin-top: 10px;
+  clear: left;
+}
+#loan_notification_area  table{border-collapse:collapse;}
+#loan_notification_area  td {
+  border: 1px solid;
+  padding-right: 5px;
+  font-size: 14px;
+  padding: 5px;
+  padding-top: 2px;
+}
+#converter_notification_area {
+  margin-bottom: 20px;
+  margin-left: 88px;
+}
+
+.forex{
+width:250px;
+margin-top:5px;
+
+}
+
+.forextable{
+width:100%;    
+border-collapse:collapse;
+}
+
+.forextable td{
+font-size:12px !important;
+border-bottom:1px solid #cecece;
+padding:2px;
+width: auto;
+line-height:30px;
+
+}
+
+.forextabletop{
+background-color:#DDDCDC;
+color:#363738;
+font-weight:bold !important;
+height:25px;
+
+}
+.rate-title{
+background-image: -o-linear-gradient(bottom, #C611CC 0%, #611863 100%);
+background-image: -moz-linear-gradient(bottom, #C611CC 0%, #611863 100%);
+background-image: -webkit-linear-gradient(bottom, #C611CC 0%, #611863 100%);
+background-image: -ms-linear-gradient(bottom, #C611CC 0%, #611863 100%);
+background-image: linear-gradient(to bottom, #C611CC 0%, #611863 100%);
+text-align:center;
+vertical-align:middle;
+color:#FFF;
+line-height:40px;
+border-radius:4px 4px 0 0;
+-webkit-border-radius:4px 4px 0 0;
+  
+  }
+
+
+
+.quotes{
+display:none;
+color: #5D5D5D;
+}
